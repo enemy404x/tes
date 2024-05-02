@@ -1,0 +1,30 @@
+*,index{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('image.jpg'); 
+    background-attachment: fixed;
+    background-size: 100%  100%;
+}
+
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+
+ul{
+    display: flex;
+    gap: 100px;
+    padding: 10px;
+}
+
+li{
+    list-style-type: none;
+    background-color: blue;
+    padding: 10px;
+}
